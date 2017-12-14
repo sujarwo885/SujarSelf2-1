@@ -284,7 +284,7 @@ Dmid = ks.getProfile().mid
 Emid = ka.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin=["u577d79f51412f92e7a28d360ca351ae4"
+admin=["u577d79f51412f92e7a28d360ca351ae4"]
 owner=["u577d79f51412f92e7a28d360ca351ae4"]
 whitelist=[""]
 wait = {
