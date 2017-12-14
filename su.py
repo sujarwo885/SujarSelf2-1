@@ -14,30 +14,30 @@ import requests,tempfile
 from gtts import gTTS
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="EnDWxj3gkhEUgQkMPOy4.v3159rqs/s56knnGYJuA5a.LPxHJiMSF9tiTY1W/l8tx57jVhcbpH52heYqiaRYOQ=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token="EnbEYFkXW49ZzSqXoPIa.bDQP7xblQtYo/hfeBJ8dUG.Wigt7vXlPs4Dw1DOvQgeiHAn8Y16oxK1i9BfAgG1D8=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(token="En0YHkowcIscDHx5T37c.HAXaYczGV0xVj7BkGgemFa.JQ09Uy6fxiKNyxvEIPGSMQY3TBMb8jT9gT3EQHuSvo=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(qr=True)
+kc.login(token="EnB2Dyw5LkIsh9hJAi36.WCqfVaPSGIEZU9MGO5FuDG.HQoXd3MhNlLg03m3fGvIHf6+O/nWmCNUBSMnvVt9ZA=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(qr=True)
+ks.login(token="EnKwJWnUIpONcrKIw0y0.9JVR7bM9MS8pI0+G7+H/ea.jd8j7dA+mgu7f//eqckoOV8UsCc7WOp9aU+8Qc9KjQ=")
 ks.loginResult()
 
 ka = LINETCR.LINE() #Franky
-ka.login(qr=True)
+ka.login(token="EnU3J5A6gG1THi8pm5r9.cue8aJxnSJS8MtzA7c8o2q.kpfNt5k8Vmm+kS7DCokW2Avk4LFiX4o9kbyYx7JMHQ=")
 ka.loginResult()
 
-print "login success plak"
+print "login success Boss"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -66,7 +66,6 @@ helpMessage =""""
 ║=> ㊙㊙🐬ⓢⓤⓙⓐ®🐊㊙㊙ 
 ════════════════
 """
-
 Help2 ="""
 ║㊙㊙🐬ⓢⓤⓙⓐ®🐊㊙㊙ ║RANGERS║Protect
 ════════════════
@@ -91,7 +90,6 @@ Help2 ="""
 ║=> ㊙㊙🐬ⓢⓤⓙⓐ®🐊㊙㊙ 
 ════════════════
 """
-
 Help3 ="""
 ║㊙㊙🐬ⓢⓤⓙⓐ®🐊㊙㊙ ║RANGERS║Socmed
 ════════════════
@@ -121,7 +119,6 @@ Help3 ="""
 ║=> ㊙㊙🐬ⓢⓤⓙⓐ®🐊㊙㊙ 
 ════════════════
 """
-
 Help4 ="""
 ║㊙㊙🐬ⓢⓤⓙⓐ®🐊㊙㊙ ║RANGERS║Translate
 ════════════════
@@ -469,7 +466,7 @@ def bot(op):
               else:
                 try:
                   cl.sendText(op.param1,cl.getContact(op.param2).displayName + "Dont Playing Link Group Bro")
-                  cl.sendTextFromGroup(op.param1,[op.param2])
+                  #cl.sendTextFromGroup(op.param1,[op.param2])
                   ki.kickoutFromGroup(op.param1,[op.param2])
                   kk.kickoutFromGroup(op.param1,[op.param2])
                   kc.kickoutFromGroup(op.param1,[op.param2])
@@ -856,7 +853,7 @@ def bot(op):
               if op.param2 not in Bots or owner:
                 try:
                   G = cl.getGroup(op.param1)
-                  cl.kickoutFromGroup(op.param1,[op.param2])
+                  #cl.kickoutFromGroup(op.param1,[op.param2])
                   G.preventJoinByTicket = False
                   cl.updateGroup(G)
                   Ticket = cl.reissueGroupTicket(op.param1)
@@ -911,7 +908,7 @@ def bot(op):
                     pass
                   else:
                     try:
-                      cl.kickoutFromGroup(op.param1,[op.param2])
+                      #cl.kickoutFromGroup(op.param1,[op.param2])
                       ki.kickoutFromGroup(op.param1,[op.param2])
                       kk.kickoutFromGroup(op.param1,[op.param2])
                       kc.kickoutFromGroup(op.param1,[op.param2])
@@ -2103,9 +2100,9 @@ def bot(op):
                     X.preventJoinByTicket = True
                     ki.updateGroup(X)
                     if wait["lang"] == "JP":
-                        ki.sendText(msg.to,"Done Plak")
+                        ki.sendText(msg.to,"Done")
                     else:
-                        ki.sendText(msg.to,"already close")
+                        ki.sendText(msg.to,"already")
                 else:
                     if wait["lang"] == "JP":
                         ki.sendText(msg.to,"Can not be used outside the group")
@@ -2641,7 +2638,7 @@ def bot(op):
                 if wait["autoAdd"] == True: md+="║[•]Auto Add ✔\n"
                 else: md+="║[•]Auto Add ✖\n"
                 if wait["commentOn"] == True: md+="║[•]Comment ✔\n"
-                else: md+="║[•]Comment ✖\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n║⭐૦Ո૯ ƿɿ૯८૯ ੮૯คɱ⭐\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n╚═══════════════"
+                else: md+="║[•]Comment ✖\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n║🐬RANGERS BOT TEAM🐊\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n╚═══════════════"
                 cl.sendText(msg.to,md)
             elif "album merit " in msg.text:
               if msg.from_ in admin:
@@ -3575,13 +3572,13 @@ def bot(op):
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Absen","Absen bot","Absen dulu","Respon"]:
               if msg.from_ in admin:
-                cl.sendText(msg.to,"ルフィ")
-                ki.sendText(msg.to,"ゾーラー")
-                kk.sendText(msg.to,"サンジ")
-                kc.sendText(msg.to,"ウソップ")
-                ks.sendText(msg.to,"チョッパー")
-                ka.sendText(msg.to,"フランキー")
-                cl.sendText(msg.to,"It's Present Boss\nReady To Protect Group")
+                cl.sendText(msg.to,"Rangers")
+                ki.sendText(msg.to,)
+                kk.sendText(msg.to,)
+                kc.sendText(msg.to,)
+                ks.sendText(msg.to,)
+                ka.sendText(msg.to,)
+                cl.sendText(msg.to,)
     #-------------Fungsi Respon Finish---------------------#   
             elif msg.text in ["Invite"]:
               if msg.from_ in owner:
