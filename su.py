@@ -18,7 +18,7 @@ cl.login(token="EnXADgLshFjCTA5CcVa4.v3159rqs/s56knnGYJuA5a.gqGrEhXp+Rw+P9AS5oDV
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="nexK4wY5CskXtfEd9la.bDQP7xblQtYo/hfeBJ8dUG.gWdFUch9/xevnEJHVkwwxb3/7y7XDMaj+YUxka1f7Z0=")
+ki.login(token="EnVUI14PQtqInZq0knja.bDQP7xblQtYo/hfeBJ8dUG.wg2ypcy31njYjmOKOzQvKzOmoymRUX42e8kU6iUwZ8g=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
@@ -608,7 +608,7 @@ def bot(op):
             pass
           else:
             try:
-              cl.kickoutFromGroup(op.param1,[op.param2])
+              #cl.kickoutFromGroup(op.param1,[op.param2])
               ki.kickoutFromGroup(op.param1,[op.param2])
               kk.kickoutFromGroup(op.param1,[op.param2])
               kc.kickoutFromGroup(op.param1,[op.param2])
