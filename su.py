@@ -284,7 +284,7 @@ Dmid = ks.getProfile().mid
 Emid = ka.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin=["u577d79f51412f92e7a28d360ca351ae4"
+admin=["u577d79f51412f92e7a28d360ca351ae4"]
 owner=["u577d79f51412f92e7a28d360ca351ae4"]
 whitelist=[""]
 wait = {
@@ -2990,7 +2990,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to, "Type Cctv First Dude\nThen Type Ciduk\nDasar Pikun ♪")
         #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Rangers Bot Team"]:
+            elif msg.text in ["Responsename","Join"]:
               if msg.from_ in owner:
                 G = cl.getGroup(msg.to)
                 ginfo = cl.getGroup(msg.to)
@@ -3067,7 +3067,7 @@ def bot(op):
     #----------------------Fungsi Join Group Finish---------------#
 
     #-------------Fungsi Leave Group Start---------------#
-            elif msg.text in ["Muleh","Get out","Out"]:
+            elif msg.text in ["Muleh","Bye","Out"]:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
@@ -3175,7 +3175,7 @@ def bot(op):
             elif msg.text in ["Like Me","like me"]:
               if msg.from_ in owner:
                 print "[Command]Like executed"
-                cl.sendText(msg.to,"Kami Siap Like Status Owner")
+                cl.sendText(msg.to,"Kami Siap Like anda")
                 try:
                   likePost()
                 except:
@@ -3186,10 +3186,10 @@ def bot(op):
             elif msg.text in ["Like","like"]:
               if msg.from_ in owner:
                 print "[Command]Like executed"
-                cl.sendText(msg.to,"Kami Siap Like Status Teman Boss")
+                cl.sendText(msg.to,"Kami Siap Like ")
                 try:
                   autolike()
-                  cl.sendText(msg.to,"Sudah Selesai Kami Like Boss")
+                  cl.sendText(msg.to,"Done")
                 except:
                   pass
         #----------------Fungsi Banned Kick Target Start-----------------------#
@@ -3216,7 +3216,7 @@ def bot(op):
             
             elif msg.text in ["Bot restart"]:
               if msg.from_ in owner:
-    	          cl.sendText(msg.to, "Kami Siap Restart\nWaktu Restart Sekitar 10 Detik ")
+    	          cl.sendText(msg.to, "wait......10 Detik ")
                 #cl.sendText(msg.to, "Waktu Restart Sekitar 10 Detik")
                   restart_program()
                 
@@ -3233,9 +3233,9 @@ def bot(op):
                     gs = kc.getGroup(msg.to)
                     gs = ks.getGroup(msg.to)
                     gs = ka.getGroup(msg.to)
-                    cl.sendText(msg.to,"Hello Kk")
-                    cl.sendText(msg.to,"One Piece Team Mau Bersih² Group Sampah Nih")
-                    cl.sendText(msg.to,"Karna Ini Group Sampah Jadi Mau Di Bersihin Dulu Yah\n★Jangan Baper...\n★Jangan Nangis\n★Jangan Cengeng\nBawa Enjoy Aja Kawan♪")
+                    cl.sendText(msg.to,)
+                    cl.sendText(msg.to,)
+                    cl.sendText(msg.to,)
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': mid}
                     cl.sendMessage(msg)
@@ -3416,9 +3416,9 @@ def bot(op):
                 cl.sendText(msg.to,"Succes Clear Blacklist")
                 #p1.sendText(msg.to,"Succes Clear Blacklist Boss")
         #----------------Fungsi Unbanned User Target Finish-----------------------#
-            elif "niru @" in msg.text:
+            elif "Jiplak @" in msg.text:
               if msg.from_ in owner:
-                _name = msg.text.replace("Copy @","")
+                _name = msg.text.replace("Jiplak @","")
                 _nametarget = _name.rstrip(' ')
                 gs = cl.getGroup(msg.to)
                 targets = []
@@ -3431,7 +3431,7 @@ def bot(op):
                   for target in targets:
                     try:
                       cl.CloneContactProfile(target)
-                      cl.sendText(msg.to, "Success Copy profile ~")
+                      cl.sendText(msg.to, "Success Jiplak profile ~")
                     except Exception as e:
                       print e
             elif msg.text in ["Backup","backup"]:
@@ -3711,7 +3711,7 @@ def bot(op):
               cl.sendText(msg.to,"======================")
               
             elif msg.text in ["Woy","woy","Woi","woi","bot","Bot"]:
-              quote = ['Apaan sih Ka Kurang Kerjaan Banget','Bodo Amat','Dasar Jones Manggil² Bot','Jones Ya?','Ada Orang kah disini?','Ah Upil Lu','Ada Perawan Nganggur ga Coy?']
+              quote = ['Apaan sih Kak...mmg kenal ama gue apa😜😜😜']
               psn = random.choice(quote)
               cl.sendText(msg.to,psn)
             
@@ -4138,7 +4138,7 @@ def bot(op):
                 pass
               else:
                 try:
-                  cl.sendText(msg.to,"Cieee Kickers!!!")
+                  cl.sendText(msg.to,"huuf kikil ya...!!!")
                   random.choice(KAC).kickoutFromGroup(msg.to,[msg.from_])
                   wait["blacklist"][msg.from_] = True
                   f=codecs.open('st2__b.json','w','utf-8')
