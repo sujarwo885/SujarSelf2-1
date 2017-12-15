@@ -3186,7 +3186,7 @@ def bot(op):
                 cl.sendText(msg.to,"like ready")
                 try:
                   autolike()
-                  cl.sendText(msg.to,"like succes)
+                  cl.sendText(msg.to,"like succes")
                 except:
                   pass
         #----------------Fungsi Banned Kick Target Start-----------------------#
