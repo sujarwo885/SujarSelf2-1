@@ -41,7 +41,7 @@ print "login success boss"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""""""   =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅]=====
+helpMessage =""""""=====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅]=====
 􀜁􀇔􏿿 [Id]
 􀜁􀇔􏿿 [Mid]
 􀜁􀇔􏿿 [Me] 
