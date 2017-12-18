@@ -14,7 +14,7 @@ import requests,tempfile
 from gtts import gTTS
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="EncQD9YYLBa539ZRAA70.9JVR7bM9MS8pI0+G7+H/ea.wDLwWva56y5vX1k8A0i/06iTQzy2CsYfqndFCUFhX+M=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
@@ -36,6 +36,8 @@ ks.loginResult()
 ka = LINETCR.LINE() #Franky
 ka.login(qr=True)
 ka.loginResult()
+
+ki=kk=kc=ks=ka
 
 print "login success plak"
 reload(sys)
@@ -284,7 +286,7 @@ Dmid = ks.getProfile().mid
 Emid = ka.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin=["u577d79f51412f92e7a28d360ca351ae4"
+admin=["u577d79f51412f92e7a28d360ca351ae4"]
 owner=["u577d79f51412f92e7a28d360ca351ae4"]
 whitelist=[""]
 wait = {
