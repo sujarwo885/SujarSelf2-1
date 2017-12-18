@@ -37,7 +37,7 @@ ka = LINETCR.LINE() #Franky
 ka.login(token="EncQD9YYLBa539ZRAA70.9JVR7bM9MS8pI0+G7+H/ea.wDLwWva56y5vX1k8A0i/06iTQzy2CsYfqndFCUFhX+M=")
 ka.loginResult()
 
-ki=kk=ks=ka=
+ki=kk=kc=ks=ka=
 
 print "login success Boss"
 reload(sys)
