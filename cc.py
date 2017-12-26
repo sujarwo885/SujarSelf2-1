@@ -3055,9 +3055,9 @@ def bot(op):
                 
         #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-             elif"Nuke"in msg.text:
-              if msg.from_ in owner:
-                if msg.toType == 2:
+               elif "Nuke" in msg.text:
+                if msg.from_ in owner:
+                  if msg.toType == 2:
                     print "ok"
                     _name = msg.text.replace("Nuke","")
                     gs = cl.getGroup(msg.to)
