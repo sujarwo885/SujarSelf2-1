@@ -3072,7 +3072,7 @@ def bot(op):
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': mid}
                     cl.sendMessage(msg)
-                    cl.sendText(msg.to,"hay.....")
+                    cl.sendText(msg.to,"This My Team WAR")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
