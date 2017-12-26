@@ -3251,7 +3251,7 @@ def bot(op):
         #----------------Fungsi Unbanned User Target Finish-----------------------#
             elif "Jiplak @" in msg.text:
               if msg.from_ in owner:
-                _name = msg.text.replace("Jiplak @",''")
+                _name = msg.text.replace("Jiplak @","")
                 _nametarget = _name.rstrip(' ')
                 gs = cl.getGroup(msg.to)
                 targets = []
