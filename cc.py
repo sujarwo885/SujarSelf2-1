@@ -14,7 +14,7 @@ import requests,tempfile
 from gtts import gTTS
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="EoWTW6v65Thl82sT01aa.bDQP7xblQtYo/hfeBJ8dUG.IBj9tOFhxI1QxEfMYG3aGfJbHUkNMxNFDeasWClGEUY=")
+cl.login(token="EoNvEuzWf2kI8sD0Yvp4.v3159rqs/s56knnGYJuA5a.3zPdZEzE8DamNgw9EaaWYCukv8iZI8dpfeN5/llZgVU=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
@@ -89,7 +89,7 @@ helpMessage ="""●▬▬▬▬▬▬Ѯ♕❇♕Ѯ▬▬▬▬●
 ║[🐬]Keluar
 ║[👍]Like teman
 ║[👍]Bot Like
-║[🎳]Tumpas/🎳
+║[🎳]Tumpas
 ║[🎳]Senggol @
 ║[🎳]Unban (Share)
 ║[💻]List Group
@@ -98,7 +98,7 @@ http://line.me/ti/p/rGlnNi8lsn
     ●▬ஜ🛂Rangers bots team🛃ஜ▬●
 ●▬▬▬▬▬▬Ѯ♕❇♕Ѯ▬▬▬▬▬●"""
 
-help2 = """╔═══════𖤓Ready𖤓════════
+help2 ="""╔═══════𖤓Ready𖤓════════
 ╠═════════════════
 ╠->contact on/off
 ╠->autojoin on/off
@@ -109,9 +109,9 @@ help2 = """╔═══════𖤓Ready𖤓════════
 ╠->respon on/off
 ╠->read on/off
 ╠->simisimi on/off
-╚═════════════════ """
+╚═════════════════"""
 
-About = """╔═════════════
+About ="""╔═════════════
 ║Rangers bots team v1.5║
 ╚═════════════"""
 
@@ -3055,11 +3055,11 @@ def bot(op):
                 
         #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "Tumpas" in msg.text:
+            elif "Nuke" in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     print "ok"
-                    _name = msg.text.replace("Tumpas","")
+                    _name = msg.text.replace("Nuke","")
                     gs = cl.getGroup(msg.to)
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
