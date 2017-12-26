@@ -3181,14 +3181,14 @@ def bot(op):
                         #kk.sendText(msg.to,"Dilarang Banned Bot")
                         #kc.sendText(msg.to,"Dilarang Banned Bot")
                      else:
-                        for target in targets:
-                            try:
-                                wait["blacklist"][target] = True
-                                f=codecs.open('st2__b.json','w','utf-8')
-                                json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
-                                random.choice(KAC).sendText(msg.to,"Akun telah sukses di banned")
-                            except:
-                                random.choice(KAC).sendText(msg.to,"Error")
+                       for target in targets:
+                         try:
+                             wait["blacklist"][target] = True
+                             f=codecs.open('st2__b.json','w','utf-8')
+                             json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
+                             random.choice(KAC).sendText(msg.to,"Akun telah sukses di banned")
+                           except:
+                             random.choice(KAC).sendText(msg.to,"Error")
             #----------------Fungsi Banned User Target Finish-----------------------# 
             #----------------Mid via Tag--------------
             elif "Mid @" in msg.text:
