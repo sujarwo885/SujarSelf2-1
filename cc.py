@@ -14,27 +14,27 @@ import requests,tempfile
 from gtts import gTTS
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="EocXquq6xtExTIeNNZMa.bDQP7xblQtYo/hfeBJ8dUG.juNBLCzBG94MPH90TeEGcFFa86gqrhHQ7+O4v7Yng9U=")
+cl.login(token="EoWTW6v65Thl82sT01aa.bDQP7xblQtYo/hfeBJ8dUG.IBj9tOFhxI1QxEfMYG3aGfJbHUkNMxNFDeasWClGEUY=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EoQX8oj2kz30Ksueu414.ALqq0hix18OmztwW8q1aDa.y4zG/WYUiw+lFEvHaKtMRH865xvDyFLR5L19tfumys4=")
+ki.login(token="EoauRyUtyBTrnF6sDWN4.ALqq0hix18OmztwW8q1aDa.xOzNNK+TLgH/y5yQWV6oeOwQgVkVZpFSLFQO0oaK41c=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="Eoqi236Lu8fP5xHDyVDc.HAXaYczGV0xVj7BkGgemFa.8yz+GryLn/6dwdZLX+NAgN7jPFVl6fmsepggJR23mis=")
+kk.login(token="EoJXiO6it1xlcUJ3mWfc.HAXaYczGV0xVj7BkGgemFa.QpNdAGRM+2G19eOB+Q9aO3+U7ilvaJzL8EmFEIn1mPo=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="EofLCjBH62SxujqLBl36.OsmTA4zIXh1LxjgYbUWI9G.uaf70PUupXQhIin1ppNWQ6UcvzdkHCYymLbgnq2RQ7c=")
+kc.login(token="EoTbExIjEHtfOat3tqda.DHeHozIH2dDZH7qBMF5JwG.miNJw39JUb5AVjO5rak4pqxKQewiGXtJLGnyB2t995U=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(token="Eoxr4kb29XdikbGDLOsa.DHeHozIH2dDZH7qBMF5JwG.yHJMN+jDNpigRugytyZDl+VL+aai2WkjT+dRT0hM+UQ=")
+ks.login(token="Eo5GICbhuGHiivURTetd.nklCz8zx3nMDjSP4IRl1Fq.Xv6+eWKK5Ylb9zcCVzNhIcPal8hB5n6kPEfUG/nEhRs=")
 ks.loginResult()
 
 ka = LINETCR.LINE() #Franky
-ka.login(token="Eoge5Z1sOFVjd7WJa33d.nklCz8zx3nMDjSP4IRl1Fq.56JvFhT0O9yD6q4au+FxeVpq1bCv28yPXc4i+W0kC+Q=")
+ka.login(token="EoGdrWjOKeV3GfYy7zV6.OsmTA4zIXh1LxjgYbUWI9G.n6l01c1ltG0/IL54Y6qaGxKtEERoSpGtpHypdniXp38=")
 ka.loginResult()
 
 print "login success plak"
