@@ -3180,7 +3180,7 @@ def bot(op):
                         #ki.sendText(msg.to,"Dilarang Banned Bot")
                         #kk.sendText(msg.to,"Dilarang Banned Bot")
                         #kc.sendText(msg.to,"Dilarang Banned Bot")
-                   else:
+                     else:
                         for target in targets:
                             try:
                                 wait["blacklist"][target] = True
