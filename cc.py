@@ -14,7 +14,7 @@ import requests,tempfile
 from gtts import gTTS
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="EoNvEuzWf2kI8sD0Yvp4.v3159rqs/s56knnGYJuA5a.3zPdZEzE8DamNgw9EaaWYCukv8iZI8dpfeN5/llZgVU=")
+cl.login(token="EoWTW6v65Thl82sT01aa.bDQP7xblQtYo/hfeBJ8dUG.IBj9tOFhxI1QxEfMYG3aGfJbHUkNMxNFDeasWClGEUY=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
@@ -3055,7 +3055,7 @@ def bot(op):
                 
         #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "Nuke" in msg.text:
+             elif"Nuke"in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     print "ok"
