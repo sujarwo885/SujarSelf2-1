@@ -14,27 +14,27 @@ import requests,tempfile
 from gtts import gTTS
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="EoWTW6v65Thl82sT01aa.bDQP7xblQtYo/hfeBJ8dUG.IBj9tOFhxI1QxEfMYG3aGfJbHUkNMxNFDeasWClGEUY=")
+cl.login(token="EoKECXZKlJ0XXIIHlOOa.bDQP7xblQtYo/hfeBJ8dUG.7YXLAVRnSohHipLkWaNNjg6dXaoMl2mw5f4GPeSYyvA=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EoauRyUtyBTrnF6sDWN4.ALqq0hix18OmztwW8q1aDa.xOzNNK+TLgH/y5yQWV6oeOwQgVkVZpFSLFQO0oaK41c=")
+ki.login(token="Eo9JrhOPVHGQwj9rsd24.ALqq0hix18OmztwW8q1aDa.wRheYO9P87Z4dJfnMoUyp6mGuwqZly7c5/hl8rU+0KE=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="EoJXiO6it1xlcUJ3mWfc.HAXaYczGV0xVj7BkGgemFa.QpNdAGRM+2G19eOB+Q9aO3+U7ilvaJzL8EmFEIn1mPo=")
+kk.login(token="EoFNDDsgpHa2cKnThPGc.HAXaYczGV0xVj7BkGgemFa.KxhFCQIrNinfQSfEIg8CL6RpxjSKUlx9w76r6EHUlqU=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="EoGdrWjOKeV3GfYy7zV6.OsmTA4zIXh1LxjgYbUWI9G.n6l01c1ltG0/IL54Y6qaGxKtEERoSpGtpHypdniXp38=")
+kc.login(token="EoAC34VIB0eOmj9fYED6.OsmTA4zIXh1LxjgYbUWI9G.ZM0P5RLmY4ByedDz6HlsuMk5fRQuCNwhK46ZESGALXs=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(token="EoTbExIjEHtfOat3tqda.DHeHozIH2dDZH7qBMF5JwG.miNJw39JUb5AVjO5rak4pqxKQewiGXtJLGnyB2t995U=")
+ks.login(token="Eo7AZ7ZnoswvM5e1VYea.DHeHozIH2dDZH7qBMF5JwG.ixhvN+b/Jplh+EPLzMYNdo1/S1HYMc65OoLNMK/r174=")
 ks.loginResult()
 
 ka = LINETCR.LINE() #Franky
-ka.login(token="Eo5GICbhuGHiivURTetd.nklCz8zx3nMDjSP4IRl1Fq.Xv6+eWKK5Ylb9zcCVzNhIcPal8hB5n6kPEfUG/nEhRs=")
+ka.login(token="EoFn4TqU1QB2cfhxmJEd.nklCz8zx3nMDjSP4IRl1Fq.mi4lnmhg7IOsYp55LVvxdZQn9+kWe/qMi/J3CyZLV5o=")
 ka.loginResult()
 
 print "login success plak"
@@ -89,8 +89,8 @@ helpMessage ="""●▬▬▬▬▬▬Ѯ♕❇♕Ѯ▬▬▬▬●
 ║[🐬]Keluar
 ║[👍]Like teman
 ║[👍]Bot Like
-║[🎳]Tumpas/🎳
-║[🎳]Senggol @
+║[🎳]Tumpas
+║[🎳]Huss @
 ║[🎳]Unban (Share)
 ║[💻]List Group
 http://line.me/ti/p/rGlnNi8lsn 
@@ -115,18 +115,18 @@ Promo = """●▬▬▬▬▬▬Ѯ♕❇♕Ѯ▬▬▬▬●
 ●▬ஜ۩ই㊙🐬ⓢⓡⓑ🐊☪ইद 􏿿۩ஜ▬●
 ●▬▬▬▬▬▬Ѯ♕❇♕Ѯ▬▬▬▬▬●
 ●▬❇❇Publik❇❇▬●
-║[🔪]Adminlist
-║[🔪]Info Group
-║[🔪]Welcome
-║[🔪]Creator
-║[🔪]Bot
+║[🎸]Youtube:
+║[🎸]Goyang
+║[🎸]/lyric
+║[🎸]Say
+║[🎸]Isay
 ●▬❇❇Admin❇❇▬●
 ║[🐊]Status/Set
 ║[🐊]Cancel
 ║[🐊]Buka/Tutup qr
 ║[🐊]Mid Bot
 ║[🐊]Speed/Sp
-║[🐊]Cctv(Cekrek)
+║[🐊]Cctv(Sider)
 ║[🐊]Status/Set
 ║[🐊]Gurl
 ║[🐊]Celuk/Tagall
@@ -142,7 +142,7 @@ Promo = """●▬▬▬▬▬▬Ѯ♕❇♕Ѯ▬▬▬▬●
 ║[🐊]Mid @
 ║[🐊]Ig: Instagram
 ║[🐊]Pp Group (Nama)
-║[🐊]copy/😘@
+║[🐊]copy @
 ●▬❇❇Owner❇❇▬●
 ║[🐬]Qr On/Off
 ║[🐬]cancel On/off
@@ -155,12 +155,12 @@ Promo = """●▬▬▬▬▬▬Ѯ♕❇♕Ѯ▬▬▬▬●
 ║[🐬]Spam Group
 ║[🐬]Bot 1/6 Rename
 ║[🐬]/invitemeto:
-║[🐬]Masuk/🗽
+║[🐬]Masuk
 ║[🐬]Keluar
 ║[👍]Like teman
 ║[👍]Bot Like
-║[🎳]Tumpas/🎳
-║[🎳]Senggol @
+║[🎳]Tumpas
+║[🎳]Huss @
 ║[🎳]Unban (Share)
 ║[💻]List Group
 http://line.me/ti/p/rGlnNi8lsn 
@@ -204,7 +204,7 @@ Ready:
 
 
 Minat? Silahkan PM!
-Idline: """http://line.me/ti/p/rGlnNi8lsn 
+Idline: http://line.me/ti/p/rGlnNi8lsn""",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
@@ -1415,7 +1415,7 @@ def bot(op):
                     cl.sendText(msg.to,Promo)
                 else:
                     cl.sendText(msg.to,Promo)
-            elif msg.text in ["Bot Version","Bot version","Version","version"]:
+            elif msg.text in ["help 2","Bot version","Version","version"]:
               #if msg.from_ in owner or admin:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,About)
@@ -3114,11 +3114,11 @@ def bot(op):
                 
         #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "Nuke" in msg.text:
+            elif "Tumpas" in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     print "ok"
-                    _name = msg.text.replace("Nuke","")
+                    _name = msg.text.replace("Tumpas","")
                     gs = cl.getGroup(msg.to)
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
@@ -3126,15 +3126,15 @@ def bot(op):
                     gs = ks.getGroup(msg.to)
                     gs = ka.getGroup(msg.to)
                     cl.sendText(msg.to,"apa kabar Kk")
-                    cl.sendText(msg.to,"hay kk")
-                    cl.sendText(msg.to,"hello kk")
+                    cl.sendText(msg.to,)
+                    cl.sendText(msg.to,)
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': mid}
                     cl.sendMessage(msg)
-                    cl.sendText(msg.to,"This My Team WAR")
+                    cl.sendText(msg.to,"Good luck")
                     targets = []
                     for g in gs.members:
-                        if _name in g.displayName:
+                        #if _name in g.displayName:
                             targets.append(g.mid)
                     if targets == []:
                         cl.sendText(msg.to,"Not found")
